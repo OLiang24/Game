@@ -1,5 +1,5 @@
 <template>
-  <div id="app" >
+  <div id="app" class="playGameScreen">
 
       <div class="row a">
 
@@ -115,7 +115,11 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
+.playGameScreen {
+  background-image: url("assets/img/bg.jpg" ) ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 .a {
   color: rgb(255, 64, 143);
   font-family: 'Lobster', cursive;
