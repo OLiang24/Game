@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div id="app" class="playGameScreen">
 
       <div class="row a">
@@ -35,10 +36,17 @@
         @P_SATK="p_satk"
       ></game>
 
+=======
+  <div id="app">
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <Game/>
+>>>>>>> 5c5189ef2632575a81c02a015a7ea14cb026ad0f
   </div>
 </template>
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
+<<<<<<< HEAD
 import game from "./components/game";
 export default {
   name: "App",
@@ -106,6 +114,16 @@ export default {
     },
   },
 };
+=======
+import game from './components/game.vue'
+export default {
+  name: 'App',
+  components: {
+   // HelloWorld
+    Game
+  }
+}
+>>>>>>> 5c5189ef2632575a81c02a015a7ea14cb026ad0f
 </script>
 <style>
 #app {
@@ -114,6 +132,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+<<<<<<< HEAD
 }
 .playGameScreen {
   background-image: url("assets/img/bg.jpg");
@@ -142,5 +161,8 @@ export default {
 }
 .enemyTile {
   float: bottom;
+=======
+  margin-top: 60px;
+>>>>>>> 5c5189ef2632575a81c02a015a7ea14cb026ad0f
 }
 </style>
