@@ -116,7 +116,7 @@ export default {
   color: #2c3e50;
 }
 .playGameScreen {
-  background-image: url("assets/img/bg.jpg");
+  background-image: url("assets/img/bg.jpg" ) ;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -125,7 +125,7 @@ export default {
   font-family: 'Lobster', cursive;
   margin: auto;
   width: 90%;
-  height: 650px;
+  height: 565px;
 }
 .tiles {
   position: absolute;
